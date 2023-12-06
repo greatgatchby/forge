@@ -13,3 +13,6 @@
 [submodule "digdag/digdag"]
 	path = digdag/digdag
 	url = https://github.com/treasure-data/digdag.git
+[submodule "services/invoice-processor"]
+	path = services/invoice-processor
+	url = https://github.com/greatgatchby/forge.git
