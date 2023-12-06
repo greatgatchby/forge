@@ -11,14 +11,15 @@ add_submodule() {
 }
 
 # Add Submodules with Subdirectories
-add_submodule "https://github.com/coqui-ai/TTS.git" "TTS" "ai-services"
-add_submodule "https://github.com/openai/whisper.git" "whisper" "ai-services"
-add_submodule "https://github.com/Stability-AI/generative-models.git" "stability" "ai-services"
-add_submodule "https://github.com/facebookresearch/llama.git" "facebook-llama" "ai-services"
-add_submodule "https://github.com/treasure-data/digdag.git" "digdag" "digdag"
+add_submodule "https://github.com/greatgatchby/circuitai-invoice-processor.git" "invoice-processor" "solutions"
+#add_submodule "https://github.com/coqui-ai/TTS.git" "TTS" "ai-services"
+#add_submodule "https://github.com/openai/whisper.git" "whisper" "ai-services"
+#add_submodule "https://github.com/Stability-AI/generative-models.git" "stability" "ai-services"
+#add_submodule "https://github.com/facebookresearch/llama.git" "facebook-llama" "ai-services"
+#add_submodule "https://github.com/treasure-data/digdag.git" "digdag" "digdag"
 
 # Commit Changes
 git add .
-git commit -m "Add submodules for Supabase, Facebook Llama, and Digdag"
+git commit -m "Add invoicing solution submodule"
 
 echo "Submodules added successfully!"
