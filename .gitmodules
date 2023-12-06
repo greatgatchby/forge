@@ -13,3 +13,6 @@
 [submodule "digdag/digdag"]
 	path = digdag/digdag
 	url = https://github.com/treasure-data/digdag.git
+[submodule "solutions/invoice-reader"]
+	path = solutions/invoice-reader
+	url = https://github.com/greatgatchby/circuitai-invoice-processor.git
