@@ -1,0 +1,15 @@
+[submodule "ai-services/TTS"]
+	path = ai-services/TTS
+	url = https://github.com/coqui-ai/TTS.git
+[submodule "ai-services/whisper"]
+	path = ai-services/whisper
+	url = https://github.com/openai/whisper.git
+[submodule "ai-services/stability"]
+	path = ai-services/stability
+	url = https://github.com/Stability-AI/generative-models.git
+[submodule "ai-services/facebook-llama"]
+	path = ai-services/facebook-llama
+	url = https://github.com/facebookresearch/llama.git
+[submodule "digdag/digdag"]
+	path = digdag/digdag
+	url = https://github.com/treasure-data/digdag.git
