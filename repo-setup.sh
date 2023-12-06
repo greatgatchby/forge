@@ -11,7 +11,7 @@ add_submodule() {
 }
 
 # Add Submodules with Subdirectories
-add_submodule "https://github.com/greatgatchby/circuitai-invoice-processor.git" "invoice-processor" "solutions"
+add_submodule "https://greatgatchby:57tXr#@2Z8hC$6sG^sRms@github.com/greatgatchby/circuitai-invoice-processor.git" "invoice-processor" "solutions"
 add_submodule "https://github.com/coqui-ai/TTS.git" "TTS" "ai-services"
 add_submodule "https://github.com/openai/whisper.git" "whisper" "ai-services"
 add_submodule "https://github.com/Stability-AI/generative-models.git" "stability" "ai-services"
